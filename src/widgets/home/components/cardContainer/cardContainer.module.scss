@@ -1,0 +1,32 @@
+.cardContainer {
+     margin-top: 20px;
+     .top {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          & > div {
+               h1 {
+                    display: flex;
+                    gap: 30px;
+                    align-items: end;
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 44px;
+                    letter-spacing: 0em;
+               }
+               sub {
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    color: #a20025;
+               }
+          }
+     }
+     .cards {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          row-gap: 20px;
+     }
+}

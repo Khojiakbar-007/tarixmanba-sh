@@ -1,0 +1,117 @@
+.home {
+     color: "red";
+     background-color: #fff;
+     .homeTop {
+          background: url("./assets/Rectangle80.png") #00000080;
+          height: 900px;
+          width: 100%;
+          background-position: center;
+          background-size: contain;
+          & > div {
+               width: 1040px;
+               margin-left: auto;
+               margin-right: auto;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               height: fit-content;
+               color: #fff;
+               & > img {
+                    margin-top: 60px;
+               }
+               & > p {
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 27px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    margin-top: 40px;
+                    span {
+                         text-decoration: underline;
+                    }
+               }
+               .input {
+                    width: 500px;
+                    height: 50px;
+                    margin-top: 40px;
+                    display: flex;
+                    align-items: center;
+                    background-color: #fff;
+                    padding: 12px 24px;
+                    margin-bottom: 30px;
+                    input {
+                         border: none;
+                         outline: none;
+                         width: 100%;
+                    }
+               }
+               .bottom {
+                    margin-top: 60px;
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    & > div {
+                         display: flex;
+                         flex-direction: column;
+                         align-items: center;
+                         p {
+                              font-size: 22px;
+                              font-weight: 600;
+                              line-height: 37px;
+                              letter-spacing: 0em;
+                         }
+                    }
+               }
+          }
+     }
+     .mainSection {
+          padding: 30px 100px;
+          .links {
+               display: flex;
+               justify-content: space-between;
+          }
+          .uzb {
+               background: url("./assets/slider.png");
+               height: 300px;
+               width: 100%;
+               background-size: cover;
+               background-position: center;
+               padding: 20px 12px;
+               backdrop-filter: 0.3;
+               & > div {
+                    display: flex;
+                    justify-content: end;
+               }
+               h1 {
+                    font-size: 30px;
+                    font-weight: 800;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    color: #fff;
+                    margin-top: 20px;
+               }
+               p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    letter-spacing: 0em;
+                    color: #fff;
+                    margin-top: 20px;
+                    margin-bottom: 25px;
+               }
+          }
+     }
+     .footer {
+          display: flex;
+          justify-content: space-between;
+          padding: 21.5px 57.5px;
+          background-color: #a07048;
+          p {
+               color: #fff;
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 19px;
+               letter-spacing: 0em;
+          }
+     }
+}
